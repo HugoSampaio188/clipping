@@ -1,0 +1,11 @@
+datetime
+numpy
+selenium
+pandas
+calendar
+pywhatkit
+scipy
+pandas_datareader
+statsmodels
+yfinance
+keyboard
