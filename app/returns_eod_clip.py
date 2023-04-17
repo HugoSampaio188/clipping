@@ -13,7 +13,7 @@ list_infos = []
 lista_tirar = []
 ticker_list = data['Ticker'].to_list()
 
-for linha, element in enumerate(ticker_list[230:]):
+for linha, element in enumerate(ticker_list[]):
     print(str(linha) + ' ' + element)
     response = yf.Ticker(element + '.SA')
     dict_infos = {}
