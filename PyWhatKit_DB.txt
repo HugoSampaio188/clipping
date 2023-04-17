@@ -1,0 +1,25 @@
+Date: 13/4/2023
+Time: 19:22
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: returns @ 19:22SPY : 1.33%QQQ : 1.96%BNO : -1.07%EWZ : -0.24%
+--------------------
+Date: 13/4/2023
+Time: 19:37
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: Releases last 10 min | Time: 9:37ReleaseHr: 09:30 AMCountry: USData: PPI MoM MARActual: -0.5%Previous: 0% ®Consensus: 0%Review: Abaixo do consenso, desce na margemReleaseHr: 09:30 AMCountry: USData: Initial Jobless Claims APR 08Actual: 239KPrevious: 228KConsensus: 232KReview: Acima do consenso, sobe na margemReleaseHr: 09:30 AMCountry: USData: Core PPI MoM MARActual: -0.1%Previous: 0.2% ®Consensus: 0.3%Review: Abaixo do consenso, desce na margemReleaseHr: 09:30 AMCountry: USData: Core PPI YoY MARActual: 3.4%Previous: 4.8% ®Consensus: 3.4%Review: Em linha com consenso, desce na margemReleaseHr: 09:30 AMCountry: USData: PPI YoY MARActual: 2.7%Previous: 4.9% ®Consensus: 3%Review: Abaixo do consenso, desce na margemReleaseHr: 09:30 AMCountry: USData: Jobless Claims 4-week Average APR 08Actual: 240KPrevious: 237.75KConsensus: Review: NA consenso, sobe na margemReleaseHr: 09:30 AMCountry: USData: Continuing Jobless Claims APR 01Actual: 1810KPrevious: 1823KConsensus: 1814KReview: Abaixo do consenso, desce na margem
+--------------------
+Date: 17/4/2023
+Time: 14:47
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: Releases dessa semana: Monday 17BR IBC-BR Economic Activity JANUS NY Empire State Manufacturing Index APRUS NAHB Housing Market Index APRUS 3-Month Bill AuctionUS 6-Month Bill AuctionBR Business Confidence APRUS Net Long-term TIC Flows FEBUS Overall Net Capital Flows FEBUS Foreign Bond Investment FEBBR BCB Focus Market ReadoutTuesday 18US Building Permits Prel MARUS Housing Starts MARUS Housing Starts MoM MARUS Building Permits MoM Prel MARUS Redbook YoY APR15US 52-Week Bill AuctionUS Fed Bowman SpeechUS API Crude Oil Stock Change APR14Thursday 20US Philadelphia Fed Manufacturing Index APRUS Initial Jobless Claims APR15US Jobless Claims 4-week Average APR15US Continuing Jobless Claims APR08US Philly Fed Business Conditions APRUS Philly Fed Employment APRUS Philly Fed CAPEX Index APRUS Philly Fed Prices Paid APRUS Philly Fed New Orders APRUS Existing Home Sales MoM MARUS Existing Home Sales MARUS CB Leading Index MoM MARUS EIA Natural Gas Stocks Change APR14US 8-Week Bill AuctionUS 4-Week Bill AuctionUS Fed Waller SpeechUS 5-Year TIPS AuctionUS Fed Bowman SpeechWednesday 19US MBA 30-Year Mortgage Rate APR14US MBA Mortgage Applications APR14US MBA Mortgage Refinance Index APR14US MBA Mortgage Market Index APR14US MBA Purchase Index APR14BR Industrial Production MoM FEBBR Industrial Production YoY FEBUS EIA Crude Oil Stocks Change APR14US EIA Gasoline Stocks Change APR14US EIA Cushing Crude Oil Stocks Change APR14US EIA Distillate Fuel Production Change APR14US EIA Distillate Stocks Change APR14US EIA Heating Oil Stocks Change APR14US EIA Gasoline Production Change APR14US EIA Crude Oil Imports Change APR14US EIA Refinery Crude Runs Change APR14US 17-Week Bill AuctionUS 20-Year Bond AuctionUS Fed Beige BookFriday 21US S&P Global Manufacturing PMI Flash APRUS S&P Global Composite PMI Flash APRUS S&P Global Services PMI Flash APRUS Baker Hughes Oil Rig Count APR21US Baker Hughes Total Rig Count APR21US Fed Cook Speech
+--------------------
+Date: 17/4/2023
+Time: 14:57
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: Releases de hoje: 17 April09:00 AM BR IBC-BR Economic Activity JAN - consensus: 0% - previous: 0.47% ®09:30 AM US NY Empire State Manufacturing Index APR - consensus: -18 - previous: -24.611:00 AM US NAHB Housing Market Index APR - consensus: 44 - previous: 4412:30 PM US 3-Month Bill Auction12:30 PM US 6-Month Bill Auction02:05 PM BR Business Confidence APR05:00 PM US Net Long-term TIC Flows FEB05:00 PM US Overall Net Capital Flows FEB05:00 PM US Foreign Bond Investment FEB BR BCB Focus Market Readout
+--------------------
+Date: 17/4/2023
+Time: 16:23
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: Top 5 returns from today VLID3 1.94%WEST3 1.79%WEGE3 1.5%VULC3 0.96%VIVT3 0.89%Worst 5 returns from today VALE3 -1.5%VVEO3 -1.39%VIIA3 -0.5%PORT3 -0.3%VIVA3 -0.22%
+--------------------

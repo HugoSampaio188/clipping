@@ -9,3 +9,4 @@ pandas_datareader
 statsmodels
 yfinance
 keyboard
+time

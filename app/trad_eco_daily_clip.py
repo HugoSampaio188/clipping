@@ -6,6 +6,16 @@ from datetime import datetime
 from datetime import timedelta
 import calendar
 import pywhatkit
+import time
+
+if datetime.today().weekday() in [5,6]:
+    print('hoje eh fds, sem clip')
+    time.sleep(15)
+    exit()
+elif datetime.now().hour < 9 or datetime.now().hour > 18:
+    print('mkt fechado')
+    time.sleep(15)
+    exit()
 
 lista_de_paises = ['BR', 'US']#, 'GB', 'EA', 'DE', 'CH']
 
@@ -28,7 +38,31 @@ del rows[0]
 
 rows = rows[0::2]
 
-date_tomorrow = calendar.month_name[datetime.now().month] + ' ' + (('0' + str((datetime.now() + timedelta(days=1)).day)) if len(str((datetime.now() + timedelta(days=1)).day)) == 1 else datetime.now().day) + ' ' + str(datetime.now().year)
+print(type(calendar.month_name[datetime.now().month]))
+print(type(str((datetime.now() + timedelta(days=1)).day)))
+
+print(type(str(datetime.now().year)))
+
+
+
+if len(str((datetime.now() + timedelta(days=1)).day)) == 1:
+    data_aux_day = '0' + str((datetime.now() + timedelta(days=1)).day)
+else:
+    data_aux_day = str((datetime.now() + timedelta(days=1)).day)
+
+if str((datetime.now() + timedelta(days=1)).month) != str((datetime.now()).month):
+    data_aux_month = calendar.month_name[(datetime.now() + timedelta(days=1)).month]
+else:
+    data_aux_month = calendar.month_name[datetime.now().month]
+
+if str((datetime.now() + timedelta(days=1)).year) != str((datetime.now()).year):
+    data_aux_year = str((datetime.now() + timedelta(days=1)).year)
+else:
+    data_aux_year = str(datetime.now().year)
+
+date_tomorrow = data_aux_month + ' ' + data_aux_day + ' ' + data_aux_year
+
+# date_tomorrow = 'April 14 2023'
 
 for row in rows:
     if date_tomorrow in row.text:
@@ -61,8 +95,8 @@ for row in rows:
         # hour_now = datetime.now().hour
         # min_now = datetime.now().minute
 
-        hour_now = 8
-        min_now = 7            
+        hour_now = 9
+        min_now = 37                        
 
         horario_end_range = horario_release_f.replace(hour=hour_now, minute=min_now, second=0)
         horario_start_range = horario_end_range - timedelta(minutes=12)

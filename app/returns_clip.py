@@ -11,6 +11,16 @@ import requests
 import datetime
 import pyautogui
 import math
+import time
+
+if datetime.today().weekday() in [5,6]:
+    print('hoje eh fds, sem clip')
+    time.sleep(15)
+    exit()
+elif datetime.now().hour < 9 or datetime.now().hour > 19:
+    print('mkt fechado')
+    time.sleep(15)
+    exit()
 
 # data_inicio = '2023-03-20'
 # data_fim = '2023-03-28'
