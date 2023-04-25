@@ -85,8 +85,16 @@ for row in rows:
         dict_release['Forecast'] = linha[8].text
         structured_releases.append(dict_release)
 
-        hora_release = int(dict_release['ReleaseHr'][0:2]) + 12 if dict_release['ReleaseHr'].split(" ")[1] == 'PM' else int(dict_release['ReleaseHr'][0:2])
-        minuto_release = dict_release['ReleaseHr'].split(" ")[0][3:5]
+        if dict_release['ReleaseHr'] == '':
+            hora_release = 0
+            minuto_release = 0
+        elif dict_release['ReleaseHr'].split(" ")[1] == 'PM':
+            hora_release = int(dict_release['ReleaseHr'][0:2]) + 12
+            minuto_release = dict_release['ReleaseHr'].split(" ")[0][3:5]
+        else:
+            hora_release = int(dict_release['ReleaseHr'][0:2])
+            minuto_release = dict_release['ReleaseHr'].split(" ")[0][3:5]
+
         hora_release = 12 if hora_release == 24 else hora_release
         hora_release = 00 if hora_release == 12 else hora_release
         horario_release = str(hora_release) + ':' + str(minuto_release)

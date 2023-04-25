@@ -50,8 +50,6 @@ if len(str((datetime.now() + timedelta(days=1)).day)) == 1:
 else:
     date_text = 'Monday' + str((datetime.now() + timedelta(days=1)).day)
 
-date_text = 'Monday 17'
-
 for row in rows:
     if date_next_week in row.text:
         print('proxima data aqui')
