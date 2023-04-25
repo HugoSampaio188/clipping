@@ -33,7 +33,7 @@ for element in Stocks:
     dict_stock_data[element]['return'] = dict_stock_data[element]['c'] / dict_stock_data[element]['pc'] - 1
     msg += element + ' : ' + str(round(dict_stock_data[element]['return'] * 100, 2)) + '%\n'
 
-pywhatkit.sendwhatmsg_to_group_instantly("LhTsd9SIr3y7PEc7WddPMy", msg, tab_close=True, wait_time=40)
+pywhatkit.sendwhatmsg_to_group_instantly("CLnTxvpomvD13yW7PvNHbZ", msg, tab_close=True, wait_time=40)
 
 # today = date.today()
 # start_date= datetime.datetime.strptime(data_inicio, '%Y-%m-%d')

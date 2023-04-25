@@ -97,4 +97,4 @@ print(msg)
 
 driver.close()
 
-pywhatkit.sendwhatmsg_to_group_instantly("LhTsd9SIr3y7PEc7WddPMy", msg, tab_close=True)
+pywhatkit.sendwhatmsg_to_group_instantly("CLnTxvpomvD13yW7PvNHbZ", msg, tab_close=True)
