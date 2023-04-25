@@ -96,7 +96,7 @@ for row in rows:
         # min_now = datetime.now().minute
 
         hour_now = 9
-        min_now = 37                        
+        min_now = 5
 
         horario_end_range = horario_release_f.replace(hour=hour_now, minute=min_now, second=0)
         horario_start_range = horario_end_range - timedelta(minutes=12)

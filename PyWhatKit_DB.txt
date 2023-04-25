@@ -23,3 +23,48 @@ Time: 16:23
 Group ID: LhTsd9SIr3y7PEc7WddPMy
 Message: Top 5 returns from today VLID3 1.94%WEST3 1.79%WEGE3 1.5%VULC3 0.96%VIVT3 0.89%Worst 5 returns from today VALE3 -1.5%VVEO3 -1.39%VIIA3 -0.5%PORT3 -0.3%VIVA3 -0.22%
 --------------------
+Date: 18/4/2023
+Time: 17:56
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: Top 5 returns from today RCSL4 21.35%AVLL3 10.0%ALUP4 9.39%AERI3 7.8%ALPK3 5.74%Worst 5 returns from today AMAR3 -9.59%CVCB3 -7.55%IFCM3 -7.02%EQPA3 -6.78%NINJ3 -6.25%
+--------------------
+Date: 19/4/2023
+Time: 10:8
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: Releases de hoje 19 April08:00 AM US MBA 30-Year Mortgage Rate APR1408:00 AM US MBA Mortgage Applications APR1408:00 AM US MBA Mortgage Refinance Index APR1408:00 AM US MBA Mortgage Market Index APR1408:00 AM US MBA Purchase Index APR1409:00 AM BR Industrial Production MoM FEB - consensus: -0.1% - previous: -0.3%09:00 AM BR Industrial Production YoY FEB - consensus: -1.9% - previous: 0.3%11:30 AM US EIA Crude Oil Stocks Change APR14 - consensus: -1.088M - previous: 0.597M11:30 AM US EIA Gasoline Stocks Change APR14 - consensus: -1.267M - previous: -0.331M11:30 AM US EIA Cushing Crude Oil Stocks Change APR1411:30 AM US EIA Distillate Fuel Production Change APR1411:30 AM US EIA Distillate Stocks Change APR14 - consensus: -0.927M - previous: -0.606M11:30 AM US EIA Heating Oil Stocks Change APR1411:30 AM US EIA Gasoline Production Change APR1411:30 AM US EIA Crude Oil Imports Change APR1411:30 AM US EIA Refinery Crude Runs Change APR1412:30 PM US 17-Week Bill Auction02:00 PM US 20-Year Bond Auction03:00 PM US Fed Beige Book
+--------------------
+Date: 19/4/2023
+Time: 10:14
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: Releases last 10 min | Time: 9:5ReleaseHr: 09:00 AMCountry: BRData: Industrial Production MoM FEBActual: -0.2%Previous: -0.3%Consensus: -0.1%Review: Acima do consenso, desce na margemReleaseHr: 09:00 AMCountry: BRData: Industrial Production YoY FEBActual: -2.4%Previous: 0.3%Consensus: -1.9%Review: Acima do consenso, desce na margem
+--------------------
+Date: 19/4/2023
+Time: 17:46
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: returns @ 17:46SPY : -0.02%QQQ : 0.08%BNO : -1.84%EWZ : -3.21%
+--------------------
+Date: 25/4/2023
+Time: 8:44
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: returns @ 8:44SPY : 0.1%QQQ : -0.21%BNO : 1.35%EWZ : 1.12%
+--------------------
+Date: 25/4/2023
+Time: 8:48
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: Top 5 returns from today BOBR4 22.22%PGMN3 9.96%CRDE3 8.78%LIGT3 8.17%BAZA3 7.35%Worst 5 returns from today AVLL3 -10.0%MNDL3 -7.98%IFCM3 -7.8%EQPA3 -5.73%CMIN3 -5.36%
+--------------------
+Date: 25/4/2023
+Time: 8:59
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: Releases last 10 min | Time: 9:5ReleaseHr: 09:00 AMCountry: BRData: Retail Sales MoM FEBActual: Previous: 3.8%Consensus: -0.2%Review: Abaixo do consenso, desce na margemReleaseHr: 09:00 AMCountry: BRData: Retail Sales YoY FEBActual: Previous: 2.6%Consensus: 0.9%Review: Abaixo do consenso, desce na margem
+--------------------
+Date: 25/4/2023
+Time: 9:1
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: Releases de hoje 25 April08:00 AM BR FGV Consumer Confidence APR - consensus: 85 - previous: 8708:30 AM BR Current Account MAR08:30 AM BR Foreign Direct Investment MAR09:00 AM BR Retail Sales MoM FEB - consensus: -0.2% - previous: 3.8%09:00 AM BR Retail Sales YoY FEB - consensus: 0.9% - previous: 2.6%09:55 AM US Redbook YoY APR2210:00 AM US S&PCase-Shiller Home Price MoM FEB - consensus: -0.7% - previous: -0.6%10:00 AM US S&PCase-Shiller Home Price YoY FEB - consensus: 0% - previous: 2.5%10:00 AM US House Price Index FEB - consensus: 392.8 - previous: 393.210:00 AM US House Price Index YoY FEB - consensus: 3.9% - previous: 5.3%10:00 AM US House Price Index MoM FEB - consensus: -0.1% - previous: 0.2%11:00 AM US New Home Sales MAR - consensus: 0.63M - previous: 0.64M11:00 AM US New Home Sales MoM MAR - consensus: 1.1% - previous: 1.1%11:00 AM US CB Consumer Confidence APR - consensus: 104 - previous: 104.211:00 AM US Richmond Fed Services Index APR11:00 AM US Richmond Fed Manufacturing Index APR11:00 AM US Richmond Fed Manufacturing Shipments Index APR11:30 AM US Dallas Fed Services Revenues Index APR11:30 AM US Dallas Fed Services Index APR11:30 AM US NY Fed Treasury Purchases 4.5 to 7 yrs - consensus: $55 million - previous: 02:00 PM US 2-Year Note Auction05:30 PM US API Crude Oil Stock Change APR21 US Building Permits Final MAR US Building Permits MoM Final MAR
+--------------------
+Date: 25/4/2023
+Time: 9:8
+Group ID: LhTsd9SIr3y7PEc7WddPMy
+Message: Releases dessa semana Monday 01US S&P Global Manufacturing PMI Final APRUS ISM Manufacturing PMI APRUS ISM Manufacturing Employment APRUS Construction Spending MoM MARUS ISM Manufacturing Prices APRUS ISM Manufacturing New Orders APRUS 3-Month Bill AuctionUS 6-Month Bill AuctionWednesday 26US MBA 30-Year Mortgage Rate APR21US MBA Mortgage Applications APR21US MBA Mortgage Refinance Index APR21US MBA Mortgage Market Index APR21US MBA Purchase Index APR21BR Bank Lending MoM MARBR IPCA mid-month CPI MoM APRBR IPCA mid-month CPI YoY APRUS Durable Goods Orders MoM MARUS Wholesale Inventories MoM Adv MARUS Retail Inventories Ex Autos MoM Adv MARUS Goods Trade Balance Adv MARUS Durable Goods Orders Ex Transp MoM MARUS Durable Goods Orders ex Defense MoM MARUS Non Defense Goods Orders Ex Air MARUS EIA Gasoline Stocks Change APR21US EIA Crude Oil Stocks Change APR21US EIA Distillate Stocks Change APR21US EIA Heating Oil Stocks Change APR21US EIA Gasoline Production Change APR21US EIA Crude Oil Imports Change APR21US EIA Cushing Crude Oil Stocks Change APR21US EIA Distillate Fuel Production Change APR21US EIA Refinery Crude Runs Change APR21US 2-Year FRN AuctionUS 17-Week Bill AuctionUS 5-Year Note AuctionMonday26BR FGV Consumer Confidence APRBR Current Account MARBR Foreign Direct Investment MARBR Retail Sales MoM FEBBR Retail Sales YoY FEBUS Redbook YoY APR22US S&PCase-Shiller Home Price MoM FEBUS S&PCase-Shiller Home Price YoY FEBUS House Price Index FEBUS House Price Index YoY FEBUS House Price Index MoM FEBUS CB Consumer Confidence APRUS New Home Sales MARUS New Home Sales MoM MARUS Richmond Fed Services Index APRUS Richmond Fed Manufacturing Index APRUS Richmond Fed Manufacturing Shipments Index APRUS Dallas Fed Services Revenues Index APRUS Dallas Fed Services Index APRUS NY Fed Treasury Purchases 4.5 to 7 yrsUS 2-Year Note AuctionUS API Crude Oil Stock Change APR21US Building Permits Final MARUS Building Permits MoM Final MARThursday 27BR IGP-M Inflation MoM APRUS GDP Growth Rate QoQ Adv Q1US GDP Price Index QoQ Adv Q1US Initial Jobless Claims APR22US Jobless Claims 4-week Average APR22US Continuing Jobless Claims APR15US Real Consumer Spending QoQ Adv Q1US Core PCE Prices QoQ Adv Q1US GDP Sales QoQ Adv Q1US PCE Prices QoQ Adv Q1US Pending Home Sales MoM MARUS Pending Home Sales YoY MARUS EIA Natural Gas Stocks Change APR21US Kansas Fed Composite Index APRUS Kansas Fed Manufacturing Index APRUS 8-Week Bill AuctionUS 4-Week Bill AuctionUS 7-Year Note AuctionBR Net Payrolls MARFriday 28BR Nominal Budget Balance MARBR Gross Debt to GDP MARBR Unemployment Rate MARBR IBC-BR Economic Activity FEBBR PPI MoM MARBR PPI YoY MARUS Core PCE Price Index MoM MARUS Personal Income MoM MARUS Personal Spending MoM MARUS Employment Cost Index QoQ Q1US PCE Price Index YoY MARUS PCE Price Index MoM MARUS Employment Cost - Benefits QoQ Q1US Employment Cost - Wages QoQ Q1US Core PCE Price Index YoY MARUS Chicago PMI APRUS Michigan Consumer Sentiment Final APRUS Michigan Consumer Expectations Final APRUS Michigan 5 Year Inflation Expectations Final APRUS Michigan Current Conditions Final APRUS Michigan Inflation Expectations Final APRUS Baker Hughes Oil Rig Count APR28US Baker Hughes Total Rig Count APR28BR Federal Tax Revenues MAR
+--------------------
