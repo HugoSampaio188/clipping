@@ -7,6 +7,7 @@ from datetime import timedelta
 import calendar
 import pywhatkit
 import time
+from release_ignore import release_group, release_ignore
 
 lista_de_paises = ['BR', 'US']#, 'GB', 'EA', 'DE', 'CH']
 
@@ -45,11 +46,14 @@ else:
 date_tomorrow = data_aux_month + ' ' + data_aux_day + ' ' + data_aux_year
 
 for row in rows:
-    if date_tomorrow in row.text:
-        print('proxima data aqui')
-        break           
+    # if date_tomorrow in row.text:
+    #     print('proxima data aqui')
+    #     break
     linha = row.find_elements(By.TAG_NAME, "td")
     dict_release = {}
+    if len(linha) == 0:
+        print('proxima data aqui')
+        break
     print(linha[1].text)
     if linha[1].text in lista_de_paises:
         print('\n\ndado US ou BR\n\n')
@@ -58,16 +62,30 @@ for row in rows:
         dict_release['ReleaseName'] = linha[4].text
         dict_release['Previous'] = linha[6].text
         dict_release['Consensus'] = linha[7].text
-        structured_releases.append(dict_release)
+        if any(substring in dict_release['ReleaseName'] for substring in release_ignore) == False:
+            structured_releases.append(dict_release)
+        if any(substring in dict_release['ReleaseName'] for substring in release_group) == True:
+            for group_name in release_group:
+                if group_name in dict_release['ReleaseName']:
+                    print(group_name)
+                    dict_release['ReleaseName'] = group_name + ' Data'
+                    dict_release['Previous'] = ''
+                    dict_release['Consensus'] = ''
+                    structured_releases.append(dict_release)
 
-if len(structured_releases) != 0:
+structured_releases_aux = []
+for element in structured_releases:
+    if element not in structured_releases_aux:
+        structured_releases_aux.append(element)
+
+if len(structured_releases_aux) != 0:
     msg = 'Releases de hoje ' + str(datetime.now().day) + ' ' + calendar.month_name[datetime.now().month] + '\n\n'
-    for data_release in structured_releases:        
+    for data_release in structured_releases_aux:        
         if len(str(data_release['Consensus'])) != 0:
             consensus_aux = ' - consensus: ' + data_release['Consensus']
         else:
             consensus_aux = ''
-        if len(str(data_release['Consensus'])) != 0:
+        if len(str(data_release['Previous'])) != 0:
             previous_aux = ' - previous: ' + data_release['Previous']
         else:
             previous_aux = ''
@@ -76,7 +94,7 @@ else:
     print('sem releases')
     exit()          
 
-tabela = pd.DataFrame.from_dict(structured_releases)
+tabela = pd.DataFrame.from_dict(structured_releases_aux)
 
 print(tabela)
 print(msg)

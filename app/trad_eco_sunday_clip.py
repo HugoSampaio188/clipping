@@ -7,6 +7,7 @@ from datetime import timedelta
 import calendar
 import pywhatkit
 import time
+from release_ignore import release_group, release_ignore
 
 lista_de_paises = ['BR', 'US']#, 'GB', 'EA', 'DE', 'CH']
 
@@ -68,21 +69,33 @@ for row in rows:
         dict_release['Date'] = date_text
         dict_release['Country'] = linha[1].text
         dict_release['ReleaseName'] = linha[4].text
-        structured_releases.append(dict_release)
+        if any(substring in dict_release['ReleaseName'] for substring in release_ignore) == False:
+            structured_releases.append(dict_release)
+        if any(substring in dict_release['ReleaseName'] for substring in release_group) == True:
+            for group_name in release_group:
+                if group_name in dict_release['ReleaseName']:
+                    print(group_name)
+                    dict_release['ReleaseName'] = group_name + ' Data'
+                    structured_releases.append(dict_release)
 
 datas = []
 
-if len(structured_releases) != 0:
-    for data_release in structured_releases:
+structured_releases_aux = []
+for element in structured_releases:
+    if element not in structured_releases_aux:
+        structured_releases_aux.append(element)
+
+if len(structured_releases_aux) != 0:
+    for data_release in structured_releases_aux:
         datas.append(data_release['Date'])
 
 datas = set(datas)          
 
-if len(structured_releases) != 0:
+if len(structured_releases_aux) != 0:
     msg = 'Releases dessa semana ' + '\n\n'
     for date in datas:
         msg += date + '\n'
-        for data_release in structured_releases:
+        for data_release in structured_releases_aux:
             if data_release['Date'] == date:
                 msg += data_release['Country'] + ' ' + data_release['ReleaseName'].replace('/', '') + '\n'
         msg += '\n'
@@ -90,7 +103,7 @@ else:
     print('sem releases')
     exit()
 
-tabela = pd.DataFrame.from_dict(structured_releases)
+tabela = pd.DataFrame.from_dict(structured_releases_aux)
 
 print(tabela)
 print(msg)
